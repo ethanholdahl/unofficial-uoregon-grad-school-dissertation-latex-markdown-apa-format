@@ -51,7 +51,7 @@
 %     - ...and probably more.
 
 % Examples:
-\documentclass[dissertation, final, apacite, copyright]{uothesis} % For final copies
+\documentclass[dissertation, final, apacite, approved, copyright]{uothesis} % For final copies
 
 %\documentclass[dissertation, draftcopy]{uothesis} % For draft copies (enables line numbering, and puts black bars where there is text that overflows a line where latex can't figure out how to break it onto another line (in non-draft modes, this will result in an "overfull hbox" error, so draft mode is a good way of spotting these, following http://tex.stackexchange.com/a/39/56363)
 
@@ -79,6 +79,43 @@
 \usepackage{tabularx,xspace,multirow}
 \usepackage{array}
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{multirow}
+\usepackage{fullpage}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{color}
+\usepackage{cases}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{float}
+%\usepackage{natbib}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{ragged2e}
+\usepackage{blindtext}
+\usepackage[unicode=true, bookmarks=true, bookmarksnumbered=false, bookmarksopen=false, breaklinks=true, pdfborder={0 0 0},backref=false]{hyperref}
+%\usepackage{url}
+%\usepackage{rotating}
+%\usepackage{booktabs}
+\usepackage{makecell}
+
+
+\doublespacing
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheorem{example}{Example}
+\newtheorem{remark}{Remark}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 % Added by Jacob L. following https://tex.stackexchange.com/questions/148314/undefined-control-sequence-in-printbibliography-biblatex to allow UTF-8 (non-ASCII) characters in the bibliography .bib file.
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
@@ -91,14 +128,14 @@
 %
 %--- For example: If using biblatex, you need to manually fix spacing and ensure
 %--- bibitems do not straddle page breaks and show up in TOC
-% \usepackage{bibspacing}
-% \setcounter{secnumberdepth}{4}
-% \patchcmd{\bibsetup}{\interlinepenalty=5000}{\interlinepenalty=10000}{}{}
-% \setlength\bibitemsep{0.5\baselineskip}
-% \usepackage{tocloft}
-% \renewcommand{\cftchapfont}{\normalsize}
-% \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
-% \renewcommand*{\numberline}[1]{\hb{#1  \hfil}}
+%\usepackage{bibspacing}
+%\setcounter{secnumberdepth}{4}
+%\patchcmd{\bibsetup}{\interlinepenalty=5000}{\interlinepenalty=10000}{}{}
+%\setlength\bibitemsep{0.5\baselineskip}
+%\usepackage{tocloft}
+%\renewcommand{\cftchapfont}{\normalsize}
+%\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % for chapters
+%\renewcommand*{\numberline}[1]{\hb{#1  \hfil}}
 %
 %--- Or, if you want to change the citation style to e.g. acm
 % \bibliographystyle{acm}

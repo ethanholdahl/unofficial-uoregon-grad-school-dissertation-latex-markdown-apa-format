@@ -429,8 +429,6 @@ of this document.}
 % Automatically give the author and year, without an extra linebreak beneath (as you would get from using '\ifbound\else\centerline{\copyright ~\thedegreeyear ~\@author}\fi'):
 \copyright ~\thedegreeyear ~\@author \\
 
-All rights reserved.
-
 %%%%%%%%%%%%%%%%%%%%%%
 % Below is an example for a Creative-Commons style license, if you want
 % to use one (if you use this, delete "All rights reserved." above). It
@@ -581,9 +579,9 @@ All rights reserved.
   \fi
   \@makecopyrightpage
   \@makeabstractpage
-  \@makevita
-  \@makeackpage
-  \@makededpage
+  %\@makevita
+  %\@makeackpage
+  %\@makededpage
   \begin{singlespacing}
     \clearpage
     \@tableofcontents
