@@ -1,17 +1,20 @@
 %--- Chapter 1 ----------------------------------------------------------------%
 \chapter{Introduction}
-\section{Chapter One Section One}
-\subsection{Chapter one section one sub-section one}
-\subsubsection{Chapter one section one sub-section one sub-sub-section one}
-asklfjlkdsajflsakfjlkdsajflkdsa
-\subsubsection{another 1}
-adsfggggssssss
+
+Game theory and evolutionary dynamics provide valuable frameworks for understanding strategic decision-making, the emergence of social norms, and the dynamics of inter-group conflicts. These fields offer insights into the complex interactions and behaviors exhibited by individuals and groups in various strategic settings. This dissertation encompasses three distinct chapters that explore different aspects of game theory and evolutionary dynamics, contributing to our understanding of these phenomena.
+
+Chapter 2 focuses on the concept of stepping stones in game theory, drawing on the theoretical foundations established by \cite{young1993evolution} and \cite{ellison2000basins}. Stepping stones are recurrent classes that facilitate transitions between different equilibria. The chapter begins by introducing an experimental design aimed at testing the effectiveness of stepping stones in facilitating the transition from an initial equilibrium to a Pareto efficient equilibrium. The experiment employs a 3x2 treatment design, varying the amount of information players receive about the game and the specific game they play. The results highlight the significance of stepping stones in promoting successful transitions, as groups playing games with stepping stones consistently achieved the high-payoff equilibrium in those games. In contrast, groups without stepping stones occasionally failed to make the transition. Additionally, the impact of information about other players' payoffs on game outcomes is examined. Groups with complete information performed better than those with incomplete information in the absence of stepping stones, attributable to the common knowledge of a Pareto improvement. However, the effect of complete information diminished when stepping stones are introduced, as they offer low-cost transitions to desirable outcomes. Lastly, the chapter explores players' decision-making behavior in relation to their myopic best response and identifies factors influencing their propensity to deviate from it. The findings provide support for the use of adaptive learning models and underscore the importance of incorporating payoff-dependent mistake models for more comprehensive analysis.
+
+Chapter 3 delves into the theory of adaptive play and investigates the role of incomplete sampling in determining the convergence to conventions. The fundamental question addressed is how incomplete sampling needs to be for convergence to occur. Focusing on the foundational $2\times 2$ coordination game, the chapter establishes that and degree of incomplete sampling is sufficient for the unperturbed adaptive play process to converge to a convention. Moreover, we demonstrate that in most cases, the criterion of incomplete sampling is unnecessary, thereby expanding the boundaries of the adaptive play framework. Additionally, the chapter explores the implications of allowing for minimally incomplete sampling on the perturbed adaptive process. By identifying a robust function for resistance that remains consistent across the degree of sampling, we show that increasing the sample size beyond a certain threshold may lead to increased resistance between conventions. However we show that even when the resistance of transition does change as result, the stochastically stable states remain unchanged under incomplete sampling conditions. The insights provided in this chapter underscore the resilience of the adaptive play process and shed light on the effects of sampling on convention emergence.
+
+Chapter 4 explores the effects of signaling in inter-group conflicts, focusing on the competitive advantage of costly signaling at the intra-group level and extending the analysis to the inter-group context. While the benefits of signaling within groups are well-documented, the role of signaling in inter-group conflicts remains relatively unexplored. The chapter introduces a model where populations with signaling eventually evolve to be homogeneously high type, providing an advantage in intra-group interactions. However, in inter-group conflicts, the absence of signaling costs gives populations without signaling a competitive edge. Nonetheless, the chapter argues that signaling can still play a crucial role in inter-group conflicts by accelerating the evolutionary process. The model predicts that societies with shorter periods of isolation before conflicts and more efficient weapons are more likely to witness the rise of signaling norms. By examining the dynamics of inter-group conflicts and considering the potential impact of signaling, this chapter expands our understanding of the factors influencing the emergence and prevalence of social norms.
+
+Overall, this dissertation presents a comprehensive exploration of game theory and evolutionary dynamics, drawing insights from experimental design, theoretical analysis, and modeling. The findings from each chapter contribute to our understanding of strategic decision-making, the emergence of social norms, and the dynamics of inter-group conflicts. These insights have broader implications for fields such as economics, sociology, and political science, offering valuable perspectives on human behavior in diverse strategic settings. By integrating these diverse perspectives, this dissertation aims to advance our understanding of complex social phenomena and provide a foundation for further research in these areas.
 
 %--- Chapter 2 ----------------------------------------------------------------%
 \chapter{Testing the Efficacy of Stepping Stone Equilibria in Coordination Games}
 
 \section{Introduction}
-
 
 As a social species, coordination games are ever present in our lives. From the language we speak, where we choose to live, and how much effort we put into our work, often the best choice depends upon matching the decisions made by those we interact with. In games like these, there are often multiple equilibria. However, not all equilibria are always as desirable as others; Once an equilibrium has been achieved, whether by path dependency, as a result of risk preferences, or simply due to chance, escaping from one equilibrium to another, even one that is a Pareto improvement, is inherently difficult.\footnote{An equilibrium $E$ is a Pareto improvement over another equilibrium $E'$ if all players weakly prefer $E$ to $E'$ and at least one player strictly prefers $E$ to $E'$.} This potential of getting stuck in payoff dominated equilibrium is what makes the study of variations of the stag hunt game, first considered by Jean-Jacques Rousseau in his Discourse on Inequality in 1755, of considerable interest to economists spanning the gamut from experimentalists to macro theorists \citep{cooper1988coordinating, romer1996advanced, bryant1983simple}. In this paper, I introduce, experiment with, and examine the effectiveness of the addition of a stepping stone equilibrium crafted to aid the transition from the payoff dominated equilibrium to the Pareto efficient equilibrium in the classic stag hunt game.
 
@@ -473,8 +476,6 @@ Beyond the binary of "did a group transition to $E_C$?", the proportion that eac
   These stacked area plots depict how the proportion of each strategy played changed as the round number increased. The proportion that a strategy was played in a given round is equal to the vertical length with that strategy's color code. The time series of each set of each experiment can be found in the appendix. 
 \end{figure}
 
-
-
 \subsubsection*{High vs Low Payoff Stepping Stones}
 
 I've established that stepping stones were effective, here I examine if there was a difference in the effectiveness of the low payoff stepping stone compared to the high payoff stepping stone. Looking again at the regression in Table \ref{regression:logit1}, Game 2 had a point estimate of $1.8157$ and Game 3 had a point estimate of $.8588$. Both with standard errors approximately $.31$, this is a large and significant difference between the two, indicating that $C$ is significantly more likely to be played in the sessions with a high payoff stepping stone compared to a low payoff stepping stone. 
@@ -611,9 +612,6 @@ Related to my test of Hypothesis 4, I investigate whether the proportion of "mis
 
 In the first 100 rounds, there were a total of 606 "mistakes" in sessions playing Game 1. Out of these mistakes, only 67 were players choosing action $B$. The binomial test yields compelling results. It allows me to reject Hypothesis $6_0$ in favor of $6_A$, as indicated by a $p$-value of less than $2.2e^{-16}$.
 
-
-
-
 \section{Concluding Remarks}
 
 In this paper I use the theoretical foundations of \cite{young1993evolution} and \cite{ellison2000basins} to define \textit{stepping stones}, a recurrent class which reduces the resistance from one recurrent class to another. I then design an experiment to test if injecting a stepping stone into a stag hunt game helps the group transition to the Pareto efficient equilibrium as theoretically predicted. I use a $3 \times 2$ treatment design varying the amount of information players receive about the game as well as the game they play and conducted 18 sessions in total, three for each treatment. 
@@ -626,6 +624,9 @@ Finally, I examine how players made decisions in relation to their myopic best r
 I found several factors that influenced subjects propensity to deviate. Like \cite{lim2016experimental}, I find that players are more likely to deviate from myopic best response in the initial stages of the game and that players were sensitive to the difference in myopic payoffs. Specifically, players were less likely to play their myopic best response when the difference in myopic payoffs between that and an alternative strategy was lower. I also found that the largest factor in determining if a player would play their myopic best response is if their myopic best response corresponds to the payoff dominant equilibrium, adding support to the theory of \cite{harsanyi1988general} and results of \cite{jagau2022}. As such, combining the current data with a payoff-dependent mistakes model would give more powerful analysis.
 
 I also adapted the stochastic strategy update probability used in experiments like \cite{hwang2018conventional} by first soliciting players decisions before the stochastic determination. This pseudo-strategy method allowed me to boost data collection and provided an interesting result. When subjects choices were not accepted in the previous round they were slightly but significantly less likely to deviate from myopic best response in the subsequent round. I attribute this to the increased salience that they could get stuck in an inefficient choice for multiple rounds. Further testing is required to see if this same effect impacts play when the stochastic determination is made prior to the player's decision. 
+
+\section{Bridge}
+In this chapter I designed and conducted an experiment to test if stepping stones are effective in facilitating transitions from an initial equilibrium to a Pareto efficient equilibrium. The theory behind it, like many papers, builds off the concept of adaptive play which was introduced by Peyton Young in 1993 \cite{young1993evolution}. In the following chapter I delve into the theory of adaptive play and relax the bounds under which its main results hold.
 
 
 %--- Chapter 3 ----------------------------------------------------------------%
@@ -669,9 +670,9 @@ to show that the basic learning process converges to a convention and that conve
 
 In our paper we show that \textit{any} degree of incomplete sampling is sufficient for the unperturbed adaptive play process to converge to an equilibrium in $2\times 2$ coordination games from any given history. In addition, we show that incomplete sampling is unnecessary in all but some $2 \times 2$ games. We also show that increasing the sample size beyond $s/m \leq 1/2$ may result in increased levels of resistance between conventions, that is to say, increasing the sample size may make conventions more stable. However, even though the resistance between conventions may change, we show that this change does not affect which convention(s) are stochastically stable when sampling is incomplete ($s<m$).
 
-\section{Adaptive play in $2\times 2$ coordination games}
+\section{Adaptive Play in $2\times 2$ Coordination Games}
 
-\subsection{$2\times 2$ coordination games}
+\subsection{$2\times 2$ Coordination Games}
 
 Consider a $2\times 2$ game $G=(N;A_1,A_2;u_1, u_2)$ with player set $N=\{1,2\}$, actions sets $A_1=\{a_1,a_2\}$ and $A_2=\{b_1,b_2\}$, and payoff functions $u_i: A_1\times A_2 \rightarrow \bf{R}$ ($i=1,2$). The game $G$ is a coordination game if it has two pure-strategy Nash equilibria on a diagonal. Without loss of generality, we assume that $(a_1,b_1)$ and $(a_2,b_2)$ are Nash equilibria and we also assume that for player 1 either $u_1(a_1,b_1) > u_1(a_2,b_1)$ or $u_1(a_2,b_2) > u_1(a_1,b_2)$ and for player 2 either $u_2(a_1,b_1) > u_2(a_1,b_2)$ or $u_2(a_2,b_2) > u_2(a_2,b_1)$. These last two conditions rule out the possibility that one of the players has the same payoff from both their actions regardless of the action played by the other player, in which case the only distinction between a player's two actions is, from their own perspective, the names of the actions.
 
@@ -684,7 +685,7 @@ Similarly, action $b_1$ is a best response by player~$2$ to a mixed strategy $p_
 $p_1(a_1) \geq \alpha_1 := \frac{u_2(a_2,b_2)-u_2(a_2,b_1)}{u_2(a_1,b_1)-u_2(a_2,b_1)-u_2(a_1,b_2)+u_2(a_2,b_2)} \in [0,1]$.
 
 
-\subsection{Adaptive play in 2-player games}
+\subsection{Adaptive Play in 2-Player Games}
  
 We study adaptive play \citep{young1993evolution} with memory $m$ and sample size $1<k\leq m$ of the game~$G$, as explained below.\footnote{Throughout, we use $k$ for the sample size because we already use $s$ for strategies.} 
 
@@ -711,7 +712,7 @@ A {\emph{convention}} is a state $h(t|m)$ that entirely consists of $m$ repetiti
 
 When a convention is reached in which the Nash equilibrium $s^*$ is played, then the players can only sample the others playing their part of $s^*$ and thus all players have a best response to play their part of~$s^*$. That means that adaptive play predicts that the players can keep playing $s^*$ in all subsequent periods. If the Nash equilibrium $s^*$ is strict, then the best responses are unique and, without perturbations, the players will keep playing $s^*$ indefinitely. 
 
-\section{Minimally incomplete sampling} 
+\section{Minimally Incomplete Sampling} 
 
 
 
@@ -871,10 +872,6 @@ Note that in the proof of Theorem~\ref{Theorem_1}, there is only one instance in
 If the game and sample sizes are such that this cannot happen anyway, then we do not need sampling to be incomplete at all, and we can have $k=m$. 
 We use the notation $\lceil\cdot\rceil$ to denote the rounding up of any real number to the smallest natural number that is at least as large.\footnote{So, if $n$ is a natural number itself, then $\lceil n\rceil=n$. Also, we include $0$ in the set of natural numbers.}
 
-
-
-
-
 \begin{theorem}\label{Theorem_2}
 Let G be a 2$\times$2 coordination game with Nash equilibria $(a_1,b_1)$ and $(a_2,b_2)$,  
 in which at least one of the two Nash equilibria is strict (i.e., either $u_1(a_1,b_1) > u_1(a_2,b_1)$ and $u_2(a_1,b_1) > u_2(a_1,b_2)$, or $u_1(a_2,b_2) > u_1(a_1,b_2)$ and $u_2(a_2,b_2) > u_2(a_2,b_1)$)  
@@ -908,7 +905,7 @@ Thus, $\lceil \alpha_1\times m\rceil \neq\lceil (1-\alpha_2)\times m\rceil$ impl
 %
 $\blacksquare$
 
-\section{Perturbed adaptive play in $2 \times 2$ games}
+\section{Perturbed Adaptive Play in $2 \times 2$ Games}
 
 Now consider the adaptive play process as modeled in Section 2 but where players have a small probability of playing an action that is not their best response. Specifically, in every round players now play a strategy at random with probability $\varepsilon$ and with probability $1-\varepsilon$ they play a best response to their drawn sample, $R_i^{t}$. As such, an action that is not in the set of possible best responses to samples drawn from the memory can be played with probability $\varepsilon/2$.\footnote{The $1/2$ comes from the fact that each player has two actions, each of which they choose with equal probability when they
 play an action at random.} We shall refer to such actions as \textit{mistakes}. This process is called perturbed adaptive play. Allowing for mistakes makes transitions possible between conventions, even those in which a strict Nash equilibrium is played. Continuing with the setup established in Section 2 where $(a_1, b_1)$ and $(a_2, b_2)$ are Nash equilibria, denote by $h_i$ the convention corresponding to $(a_i, b_i)$, i.e., the state that consists of $m$
@@ -1134,9 +1131,12 @@ When $m > k = 10$, the resistances between $h_1$ and $h_2$ are $r_{1,2}^{k,m} = 
 However, when $m = k = 10$, the resistance of moving from $h_1$ to $h_2$ increases to $r_{1,2}^{k,m} = 6$ while the resistance of moving from $h_2$ to $h_1$ remains unchanged  at $r_{2,1}^{k,m} = 5$. Thus, only convention $h_1$ is stochastically stable.
 \end{example}
 
-\section{Conclusion}
+\section{Concluding Remarks}
 
 Young's model of adaptive play has been studied and applied to a wide variety of games. However, the boundary of precisely how incomplete sampling needs to be in order for foundational results like convergence to a convention remain unaddressed. We examined the most foundational game, the $2\times 2$ coordination game, and proved that in this case, \textit{any} degree of incomplete sampling is sufficient for the unperturbed adaptive play process to converge to a convention. In addition, we show that in all but some $2 \times 2$ games that the criterion of incomplete sampling is unnecessary. We also examine how allowing for minimally incomplete sampling affects the perturbed adaptive process. We identified the function for resistance that is robust to all degrees of sampling, $k \leq m$, and found that increasing the sample size beyond $k/m \leq 1/2$ may result in increased resistance between conventions. However, we also showed that even if the resistance does increase due to the relative size of a fixed sample to a changing memory that the stochastically stable states remain unchanged if sampling is incomplete $(k<m)$.
+
+\section{Bridge}
+In this chapter Anne van den Nouweland and I proved that only minimally incomplete sampling is necessary in order for the main results of adaptive play to apply. This included showing that which norm is stochastically stable is unchanged by relaxing the incomplete sampling restriction. In the following chapter, Jiabin Wu and I propose a model to explain the potential role of inter-group conflicts in determining the rise and fall of signaling norms.
 
 
 %%--- Chapter 4 ---------------------------------------------------------------%
@@ -1678,14 +1678,22 @@ As in the case of perfect signaling, imperfect signaling can improve short run p
     \end{figure} 
 
 
-\subsection{Concluding Remarks}
+\section{Concluding Remarks}
 
 It has been well understood that costly signaling can provide a competitive advantage at the intra-group level, however, to our knowledge the effects of signaling has not been examined at the inter-group level of conflicts. We consider a model in which the same individuals (high types) that benefit from signaling would evolve even in the absence of signaling. Thus, when there are two populations, one with and one without signaling, it follows that they would both eventually evolve to be homogeneously high type. At that point, if the two populations were to engage in conflicts, the population without signaling would have a competitive advantage because they do not need to pay the cost of signaling. However, we argue that there can be an advantage to signaling in inter-group conflicts: that the group with signaling evolves faster than the group without signaling. As a result, if conflicts occur, the prevailing population is largely a question of how long the populations evolve in isolation before they engage in conflicts. Our model predicts that societies that have shorter periods of isolation before conflicts, and more efficient weapon used in conflicts may favor the rise of signaling norms. 
 
 
 %--- Chapter 5 ----------------------------------------------------------------%
 \chapter{Conclusion}
-\section{Chapter Four Section One}
-\subsection{Chapter four section one sub-section one}
-\subsubsection{Chapter four section one sub-section one sub-sub-section one}
+
+In this dissertation, three chapters were dedicated to exploring different aspects of game theory and evolutionary dynamics. Each chapter provides valuable insights and contributes to our understanding of strategic decision-making and the emergence of social norms. 
+
+In Chapter 2, the focus was on the concept of stepping stones, which are recurrent classes that facilitate transitions between different equilibria. Through an experimental design, it was observed that the introduction of stepping stones in a stag hunt game helped groups transition to the Pareto efficient equilibrium more consistently compared to groups without stepping stones. The amount of information provided to players about other players' payoffs also influenced the success of the groups, with complete information leading to better outcomes in the absence of stepping stones. Furthermore, players' decision-making behavior aligned with their myopic best response, but deviations were influenced by factors such as the difference in payoffs and the dominance of a particular equilibrium. Overall, the findings support the use of adaptive learning models in analyzing evolutionary games and suggest the potential for further analysis using payoff-dependent mistake models.
+
+Chapter 3 focused on the theory of adaptive play and the role of incomplete sampling. It was shown that even minimal incomplete sampling is sufficient for the adaptive play process to converge to a convention in the $2\times 2$ coordination game. The results also demonstrated that relaxing the incomplete sampling requirement did not change the stochastically stable states, except in some $2 \times 2$ games. The findings emphasize the robustness of the adaptive play process and provide insights into the effects of sampling on the emergence of conventions.
+
+In Chapter 4, the investigation delved into the effects of signaling in inter-group conflicts. Costly signaling has been recognized as beneficial within groups, but its role in inter-group conflicts remained unexplored. The model presented in this chapter suggests that populations with signaling would eventually evolve to be homogeneously high type, providing a competitive advantage in intra-group interactions. However, in inter-group conflicts, the population without signaling would have an advantage due to the absence of signaling costs. Nonetheless, it was argued that signaling could still play a role in inter-group conflicts by accelerating the evolutionary process and favoring the rise of signaling norms. The model predicts that societies with shorter periods of isolation before conflicts and more efficient weapons would be more likely to see the prevalence of signaling norms.
+
+Combining the insights from these chapters, it is evident that game theory and evolutionary dynamics offer valuable frameworks for understanding strategic decision-making, the emergence of social norms, and the dynamics of inter-group conflicts. These findings contribute to a deeper understanding of human behavior in various strategic settings and provide important implications for fields such as economics, sociology, and political science.
+
 

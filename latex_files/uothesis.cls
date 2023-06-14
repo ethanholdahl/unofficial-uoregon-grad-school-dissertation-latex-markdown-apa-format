@@ -580,7 +580,7 @@ of this document.}
   \@makecopyrightpage
   \@makeabstractpage
   %\@makevita
-  %\@makeackpage
+  \@makeackpage
   %\@makededpage
   \begin{singlespacing}
     \clearpage
